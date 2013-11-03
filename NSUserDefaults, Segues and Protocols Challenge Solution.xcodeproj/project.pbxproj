@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63136671826F84700EE246F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63136661826F84700EE246F /* Foundation.framework */; };
+		C63136691826F84700EE246F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63136681826F84700EE246F /* CoreGraphics.framework */; };
+		C631366B1826F84700EE246F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C631366A1826F84700EE246F /* UIKit.framework */; };
+		C63136711826F84700EE246F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C631366F1826F84700EE246F /* InfoPlist.strings */; };
+		C63136731826F84700EE246F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C63136721826F84700EE246F /* main.m */; };
+		C63136771826F84700EE246F /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C63136761826F84700EE246F /* SWAppDelegate.m */; };
+		C631367A1826F84700EE246F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63136781826F84700EE246F /* Main.storyboard */; };
+		C631367D1826F84700EE246F /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C631367C1826F84700EE246F /* SWViewController.m */; };
+		C631367F1826F84700EE246F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C631367E1826F84700EE246F /* Images.xcassets */; };
+		C63136861826F84800EE246F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63136851826F84800EE246F /* XCTest.framework */; };
+		C63136871826F84800EE246F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63136661826F84700EE246F /* Foundation.framework */; };
+		C63136881826F84800EE246F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C631366A1826F84700EE246F /* UIKit.framework */; };
+		C63136901826F84800EE246F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C631368E1826F84800EE246F /* InfoPlist.strings */; };
+		C63136921826F84800EE246F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C63136911826F84800EE246F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C63136891826F84800EE246F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C631365B1826F84700EE246F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63136621826F84700EE246F;
+			remoteInfo = "NSUserDefaults, Segues and Protocols Challenge Solution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C63136631826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63136661826F84700EE246F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C63136681826F84700EE246F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C631366A1826F84700EE246F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C631366E1826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist"; sourceTree = "<group>"; };
+		C63136701826F84700EE246F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C63136721826F84700EE246F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C63136741826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch"; sourceTree = "<group>"; };
+		C63136751826F84700EE246F /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		C63136761826F84700EE246F /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		C63136791826F84700EE246F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C631367B1826F84700EE246F /* SWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
+		C631367C1826F84700EE246F /* SWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
+		C631367E1826F84700EE246F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C63136841826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63136851826F84800EE246F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C631368D1826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
+		C631368F1826F84800EE246F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C63136911826F84800EE246F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63136601826F84700EE246F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63136691826F84700EE246F /* CoreGraphics.framework in Frameworks */,
+				C631366B1826F84700EE246F /* UIKit.framework in Frameworks */,
+				C63136671826F84700EE246F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63136811826F84800EE246F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63136861826F84800EE246F /* XCTest.framework in Frameworks */,
+				C63136881826F84800EE246F /* UIKit.framework in Frameworks */,
+				C63136871826F84800EE246F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C631365A1826F84700EE246F = {
+			isa = PBXGroup;
+			children = (
+				C631366C1826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution */,
+				C631368B1826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */,
+				C63136651826F84700EE246F /* Frameworks */,
+				C63136641826F84700EE246F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63136641826F84700EE246F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63136631826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution.app */,
+				C63136841826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63136651826F84700EE246F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C63136661826F84700EE246F /* Foundation.framework */,
+				C63136681826F84700EE246F /* CoreGraphics.framework */,
+				C631366A1826F84700EE246F /* UIKit.framework */,
+				C63136851826F84800EE246F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C631366C1826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution */ = {
+			isa = PBXGroup;
+			children = (
+				C63136751826F84700EE246F /* SWAppDelegate.h */,
+				C63136761826F84700EE246F /* SWAppDelegate.m */,
+				C63136781826F84700EE246F /* Main.storyboard */,
+				C631367B1826F84700EE246F /* SWViewController.h */,
+				C631367C1826F84700EE246F /* SWViewController.m */,
+				C631367E1826F84700EE246F /* Images.xcassets */,
+				C631366D1826F84700EE246F /* Supporting Files */,
+			);
+			path = "NSUserDefaults, Segues and Protocols Challenge Solution";
+			sourceTree = "<group>";
+		};
+		C631366D1826F84700EE246F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C631366E1826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist */,
+				C631366F1826F84700EE246F /* InfoPlist.strings */,
+				C63136721826F84700EE246F /* main.m */,
+				C63136741826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C631368B1826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C63136911826F84800EE246F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */,
+				C631368C1826F84800EE246F /* Supporting Files */,
+			);
+			path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests";
+			sourceTree = "<group>";
+		};
+		C631368C1826F84800EE246F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C631368D1826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */,
+				C631368E1826F84800EE246F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63136621826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63136951826F84800EE246F /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge Solution" */;
+			buildPhases = (
+				C631365F1826F84700EE246F /* Sources */,
+				C63136601826F84700EE246F /* Frameworks */,
+				C63136611826F84700EE246F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSUserDefaults, Segues and Protocols Challenge Solution";
+			productName = "NSUserDefaults, Segues and Protocols Challenge Solution";
+			productReference = C63136631826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C63136831826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63136981826F84800EE246F /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge SolutionTests" */;
+			buildPhases = (
+				C63136801826F84800EE246F /* Sources */,
+				C63136811826F84800EE246F /* Frameworks */,
+				C63136821826F84800EE246F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C631368A1826F84800EE246F /* PBXTargetDependency */,
+			);
+			name = "NSUserDefaults, Segues and Protocols Challenge SolutionTests";
+			productName = "NSUserDefaults, Segues and Protocols Challenge SolutionTests";
+			productReference = C63136841826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C631365B1826F84700EE246F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Shannon Wynn";
+				TargetAttributes = {
+					C63136831826F84800EE246F = {
+						TestTargetID = C63136621826F84700EE246F;
+					};
+				};
+			};
+			buildConfigurationList = C631365E1826F84700EE246F /* Build configuration list for PBXProject "NSUserDefaults, Segues and Protocols Challenge Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C631365A1826F84700EE246F;
+			productRefGroup = C63136641826F84700EE246F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63136621826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution */,
+				C63136831826F84800EE246F /* NSUserDefaults, Segues and Protocols Challenge SolutionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63136611826F84700EE246F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C631367F1826F84700EE246F /* Images.xcassets in Resources */,
+				C63136711826F84700EE246F /* InfoPlist.strings in Resources */,
+				C631367A1826F84700EE246F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63136821826F84800EE246F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63136901826F84800EE246F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C631365F1826F84700EE246F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C631367D1826F84700EE246F /* SWViewController.m in Sources */,
+				C63136771826F84700EE246F /* SWAppDelegate.m in Sources */,
+				C63136731826F84700EE246F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63136801826F84800EE246F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63136921826F84800EE246F /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C631368A1826F84800EE246F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63136621826F84700EE246F /* NSUserDefaults, Segues and Protocols Challenge Solution */;
+			targetProxy = C63136891826F84800EE246F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C631366F1826F84700EE246F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63136701826F84700EE246F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C63136781826F84700EE246F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63136791826F84700EE246F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C631368E1826F84800EE246F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C631368F1826F84800EE246F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63136931826F84800EE246F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C63136941826F84800EE246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63136961826F84800EE246F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C63136971826F84800EE246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C63136991826F84800EE246F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSUserDefaults, Segues and Protocols Challenge Solution.app/NSUserDefaults, Segues and Protocols Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge SolutionTests/NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C631369A1826F84800EE246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSUserDefaults, Segues and Protocols Challenge Solution.app/NSUserDefaults, Segues and Protocols Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Challenge Solution/NSUserDefaults, Segues and Protocols Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Challenge SolutionTests/NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C631365E1826F84700EE246F /* Build configuration list for PBXProject "NSUserDefaults, Segues and Protocols Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63136931826F84800EE246F /* Debug */,
+				C63136941826F84800EE246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63136951826F84800EE246F /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63136961826F84800EE246F /* Debug */,
+				C63136971826F84800EE246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63136981826F84800EE246F /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Challenge SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63136991826F84800EE246F /* Debug */,
+				C631369A1826F84800EE246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C631365B1826F84700EE246F /* Project object */;
+}
